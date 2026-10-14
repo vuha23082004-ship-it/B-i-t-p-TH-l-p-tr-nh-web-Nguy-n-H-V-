@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <h2>Registration Form</h2>
+
+    <form action="#">
+        <table border="0">
+            <tr>
+                <td align="right">First Name :</td>
+                <td><input type="text" name="firstname" placeholder="Enter First Name"></td>
+            </tr>
+            <tr>
+                <td align="right">Last Name :</td>
+                <td><input type="text" name="lastname" placeholder="Enter Last Name"></td>
+            </tr>
+            <tr>
+                <td align="right">Email :</td>
+                <td><input type="email" name="email" placeholder="Enter Email Address"></td>
+            </tr>
+            <tr>
+                <td align="right">Password :</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td align="right" valign="top">Gender:</td>
+                <td>
+                    Male <input type="radio" name="gender" value="male"><br>
+                    Female <input type="radio" name="gender" value="female"><br>
+                    Other <input type="radio" name="gender" value="other">
+                </td>
+            </tr>
+            <tr>
+                <td align="right">Age :</td>
+                <td><input type="number" name="age"></td>
+            </tr>
+            <tr>
+                <td align="right" valign="top">Preferences :</td>
+                <td>
+                    Acrylic Painting <input type="checkbox" name="pref" value="1"><br>
+                    Oil Painting <input type="checkbox" name="pref" value="2"><br>
+                    Water Color Painting <input type="checkbox" name="pref" value="3">
+                </td>
+            </tr>
+            <tr>
+                <td align="right">Select Occupation</td>
+                <td>
+                    <select name="occupation">
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="right" valign="top">Bio</td>
+                <td>
+                    <textarea name="bio" rows="4" cols="20" placeholder="Share few lines about yourself..."></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="reset" value="RESET">
+                    <input type="submit" value="SUBMIT">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
